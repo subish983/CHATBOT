@@ -3,6 +3,8 @@
 # Chatbot using Python and Tensorflow 
 
 ## A fourth-year first semester mid-term project report submitted for partial fulfilment of the requirements for COMP 484. 
+   Project Supervisor: Dr. Bal Krishna Bal, H.O.D DoCSE K.U. </br>
+   
 
 ### Background
 
@@ -26,7 +28,7 @@
    * comment length (i.e. number of words >1 and < 50)
    
    We then stored this data in sqlite database for our model. 
-   [Sqlite]()
+   [Sqlite](https://sqlitebrowser.org/)
    
    ### Nueral Machine Translator(N.M.T) Model
    
@@ -44,6 +46,23 @@
   
   * The interface for the bot can be accessed through the 'modded-inference.py' file.
     
+  ### Results
+  
+   Made an interactive bot having the following params:
+  * Training Steps: 30, 000
+  * Learning Rate: 0.001
+  * Words Per Second Learnt: 11.52K
+  * Perplexity Value: 38.95
+  * Gradient Noise: 5.90
+  * Bleu Value: 2.78
+  
+  #### Calculating Accuracy
+   
+   Taking Google Translator's Bleu Value as a Reference Value :
+  * Google Translator's Bleu Value: 3.694
+  * Our  Model's Bleu Value: 2.78
+  * Accuracy of Our model based on Bleu Value = 75%
+  
     
     
 
