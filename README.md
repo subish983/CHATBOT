@@ -31,6 +31,18 @@
    ### Nueral Machine Translator(N.M.T) Model
    
    To train the model, we have used Tensorflow's Seq2Seq NMT Model. Originally, this model was used for text translation from English to French Language. We've tweaked this model to output English Language.
+   
+   [Link to our NMT Model](https://drive.google.com/file/d/1pyeu4B4j_xsl0jGCMcJKf-cJ5Eqd268P/view?fbclid=IwAR0_fcEzyJurOhB6M8NYzrg7YiaKlf13MSUuR0P_W0jCOQOUUJAwnFXJXJg)
+   </br>
+  **Note**
+    </br>
+  * Our model is under the folder named 'model'.
+  * All the output files after training the model have been saved in the 'model' folder as 'translate.ckpt' files.
+  * The training and testing data files are inside the 'new_data' folder.
+  
+  ### Output
+  
+  * The interface for the bot can be accessed through the 'modded-inference.py' file.
     
     
     
