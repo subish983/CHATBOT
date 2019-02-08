@@ -2,7 +2,7 @@
 
 # Chatbot using Python and Tensorflow 
 
-## A fourth-year first semester mid-term project report submitted for partial fulfilment of the requirements for COMP 484. 
+## A fourth-year first semester mini project report submitted for partial fulfilment of the requirements for COMP 484. 
    Project Supervisor: Dr. Bal Krishna Bal, H.O.D DoCSE K.U. </br>
    
 
